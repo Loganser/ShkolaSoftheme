@@ -1,0 +1,6 @@
+C:\git\ShkolaSoftheme\CSharpHW\7\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+C:\git\ShkolaSoftheme\CSharpHW\7\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+C:\git\ShkolaSoftheme\CSharpHW\7\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+C:\git\ShkolaSoftheme\CSharpHW\7\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.csprojResolveAssemblyReference.cache
+C:\git\ShkolaSoftheme\CSharpHW\7\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.exe
+C:\git\ShkolaSoftheme\CSharpHW\7\ConsoleApplication2\ConsoleApplication2\obj\Debug\ConsoleApplication2.pdb

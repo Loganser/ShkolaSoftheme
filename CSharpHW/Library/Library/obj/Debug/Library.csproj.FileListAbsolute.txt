@@ -1,0 +1,6 @@
+C:\git\ShkolaSoftheme\CSharpHW\Library\Library\bin\Debug\Library.exe.config
+C:\git\ShkolaSoftheme\CSharpHW\Library\Library\bin\Debug\Library.exe
+C:\git\ShkolaSoftheme\CSharpHW\Library\Library\bin\Debug\Library.pdb
+C:\git\ShkolaSoftheme\CSharpHW\Library\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+C:\git\ShkolaSoftheme\CSharpHW\Library\Library\obj\Debug\Library.exe
+C:\git\ShkolaSoftheme\CSharpHW\Library\Library\obj\Debug\Library.pdb

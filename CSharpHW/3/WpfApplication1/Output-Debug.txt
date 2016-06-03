@@ -1,0 +1,10 @@
+﻿The thread 0x20f0 has exited with code 0 (0x0).
+The thread 0x1d38 has exited with code 0 (0x0).
+The thread 0x1e54 has exited with code 0 (0x0).
+Step into: Stepping over non-user code 'WpfApplication1.App..ctor'
+Step into: Stepping over non-user code 'WpfApplication1.App.InitializeComponent'
+The thread 0x1e78 has exited with code 0 (0x0).
+The thread 0xcac has exited with code 0 (0x0).
+The thread 0xb6c has exited with code 0 (0x0).
+The program '[4028] WpfApplication1.vshost.exe: Program Trace' has exited with code 0 (0x0).
+The program '[4028] WpfApplication1.vshost.exe' has exited with code 0 (0x0).
