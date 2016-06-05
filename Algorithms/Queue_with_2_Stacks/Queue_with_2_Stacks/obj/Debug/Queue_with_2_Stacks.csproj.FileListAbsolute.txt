@@ -1,0 +1,5 @@
+D:\ShkolaSoftheme\ShkolaSoftheme\Algorithms\Queue_with_2_Stacks\Queue_with_2_Stacks\bin\Debug\Queue_with_2_Stacks.exe.config
+D:\ShkolaSoftheme\ShkolaSoftheme\Algorithms\Queue_with_2_Stacks\Queue_with_2_Stacks\bin\Debug\Queue_with_2_Stacks.exe
+D:\ShkolaSoftheme\ShkolaSoftheme\Algorithms\Queue_with_2_Stacks\Queue_with_2_Stacks\bin\Debug\Queue_with_2_Stacks.pdb
+D:\ShkolaSoftheme\ShkolaSoftheme\Algorithms\Queue_with_2_Stacks\Queue_with_2_Stacks\obj\Debug\Queue_with_2_Stacks.exe
+D:\ShkolaSoftheme\ShkolaSoftheme\Algorithms\Queue_with_2_Stacks\Queue_with_2_Stacks\obj\Debug\Queue_with_2_Stacks.pdb
