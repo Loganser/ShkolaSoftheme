@@ -9,198 +9,51 @@ namespace Library
 {
     class Program
     {
-        enum Genre { classic, humor, drama}
-        class Book
-        {
-            public string title { get; set; }
-            string author_name;
-            int year;
-            int pages;
-            public int pop_index { get; set; }
-            public Genre genre;
-            public int max_count;
-            public int count { get; set; }
-            public string last_taken_by;
-
-            public Book(string title, string author_name, Genre genre, int year, int pages, int count)
-            {
-                this.title = title;
-                this.author_name = author_name;
-                this.genre = genre;
-                this.year = year;
-                this.pages = pages;
-                this.pop_index = 0;
-                this.count = this.max_count = count;
-                this.last_taken_by = "no one";
-            }
-
-            public void change_last_user(User user)
-            {
-                last_taken_by = user.login;
-            }
-        }
-
-        class User
-        {
-            public bool autorized { get; set; }
-            public string login { get; set; }
-            public List<Book> books_taken = new List<Book>();
-            
-
-            public User(string login)
-            {
-                this.login = login;
-                this.autorized = false;
-            }
-
-            public void set_privileges()
-            {
-                this.autorized = true;
-            }
-            public Book take_book(string title)
-            {
-                foreach (Book book in Library.books)
-                {
-                    if (book.title.Equals(title) && book.count > 0)
-                    {
-                        book.count--;
-                        book.pop_index++;
-                        book.change_last_user(this);
-                        books_taken.Add(book);
-                        return book;
-                    }
-                }
-                    return null;
-            }
-
-            public bool return_book(string title)
-            {
-                foreach (Book book in Library.books)
-                {
-                    bool found = false;
-                    foreach (Book book1 in books_taken)
-                    {
-                        if (book.title.Equals(title)) found = true;
-                    }
-
-                        if (book.title.Equals(title) && book.count < book.max_count && found)
-                    {
-                        book.count++;
-                        return true;
-                    }
-                }
-                return false;
-            }
-
-        }
-
-        static class Library
-        {
-            public static List<Book> books = new List<Book>();
-            static HashSet<string> users = new HashSet<string>();
-
-            public static void show_info()
-            {
-                Dictionary<Genre, int> c_by_genres = new Dictionary<Genre, int>();
-                c_by_genres.Add(Genre.classic, 0);
-                c_by_genres.Add(Genre.drama, 0);
-                c_by_genres.Add(Genre.humor, 0);
-                foreach (Book book in books) {
-                    c_by_genres[book.genre]++;
-                }
-                //foreach (Dictionary<Genre, int> count in c_by_genres)
-                //{
-                //    Console.WriteLine("The number books of "+book.genre.ToString()+" genre: " + c_by_genres[book.genre]);
-                //}
-            }
-
-            public static void add_book(Book book)
-            {
-                books.Add(book);
-            }
-
-            public static bool is_user(string login)
-            {
-                return users.Contains(login);
-            }
-
-            static public void add_user(string login)
-            {
-                users.Add(login);
-            }
-            
-
-        }
-
-        static void exit_helper(User user)
-        {
-            if (!user.autorized)
-            {
-                Console.WriteLine(user.login + ", do you want to autorize? (yes/no)");
-                string inp = Console.ReadLine();
-                if (inp.Equals("yes"))
-                {
-                    Library.add_user(user.login);
-                    Console.WriteLine("You are added to our database!");
-                }
-            }
-            
-            Console.WriteLine("Bye, "+user.login+". Please come back!");
-            System.Threading.Thread.Sleep(1000);
-            Environment.Exit(0);
-        }
-        static void show_help(User user)
-        {
-            Console.WriteLine("You may enter the following commands: ");
-            if (user.autorized)
-            {
-
-            } else
-            {
-
-            }
-        }
+        
 
         static void Main(string[] args)
         {
-            Library.add_user("root");
+            Library.Add_user("root");
             Book b1 = new Book("rose and gold", "Pushkin", Genre.drama, 1960, 1123, 2);
             Book b2 = new Book("white and blue", "Tolstoy", Genre.humor, 1932, 678, 1);
-            Library.books.Add(b1);
-            Library.books.Add(b1);
+            Library.Add_book(b1);
+            Library.Add_book(b2);
+            Library.Add_book(b2);
 
             Console.WriteLine("Please enter login:");
             string login;
             login = Console.ReadLine();
             User user = new User(login);
-            if (Library.is_user(login))
+            if (Library.Is_user(login))
             {
-                user.set_privileges();
+                user.Set_privileges();
                 Console.WriteLine("Welcome "+login+"! We are glad you are back!");
             } else
             {
                 Console.WriteLine("Welcome unknown user.");
             }
-            
+            string book_name, book_aut;
+            Genre book_genre;
+            int book_year, book_pages;
 
             Console.WriteLine("Please command. Enter \"help\" for help.");
             while (true)
             {
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                Console.Write("$");
+                Console.ResetColor();
                 string inp = Console.ReadLine();
+                inp = inp.ToUpper();
                 if (user.autorized)
                 {
                     switch (inp)
                     {
-                        case "exit":
-                            exit_helper(user);
-                            break;
-                        case "help":
-                            show_help(user);
-                            break;
-                        case "take_book":
+                        case "TAKE_BOOK":
                             Console.WriteLine("Please enter the name of the book:");
-                            string book_name = Console.ReadLine();
-                            Book book_to_take = user.take_book(book_name);
+                            book_name = Console.ReadLine();
+                            Console.WriteLine("Please enter the author of the book:");
+                            book_aut = Console.ReadLine();
+                            Book book_to_take = user.Take_book(book_name, book_aut);
                             if (book_to_take == null)
                             {
                                 Console.WriteLine("There is no such book or it is already taken!");
@@ -210,11 +63,12 @@ namespace Library
                                 Console.WriteLine("You have taken the book!");
                             }
                             break;
-                        case "return_book":
+                        case "RETURN_BOOK":
                             Console.WriteLine("Please enter the name of the book:");
-                            string book_name1 = Console.ReadLine();
-                            bool f  = user.return_book(book_name1);
-                            if (!f)
+                            book_name = Console.ReadLine();
+                            Console.WriteLine("Please enter the author of the book:");
+                            book_aut = Console.ReadLine();
+                            if (!user.Return_book(book_name, book_aut))
                             {
                                 Console.WriteLine("Error");
                             }
@@ -223,22 +77,88 @@ namespace Library
                                 Console.WriteLine("You have returned the book!");
                             }
                             break;
+                        case "ADD_BOOK":
+                            Console.WriteLine("Please enter the name of the book:");
+                            book_name = Console.ReadLine();
+                            Console.WriteLine("Please enter the author:");
+                            book_aut = Console.ReadLine();
+                            Console.WriteLine("Please enter the genre:");
+                            for (int i = 0; i < Enum.GetNames(typeof(Genre)).Length; ++i)
+                            {
+                                Genre tmp_g = (Genre)i;
+                                Console.WriteLine(i.ToString() + " - " + tmp_g.ToString());
+                            }
+                            book_genre = (Genre)int.Parse(Console.ReadLine());
+                            Console.WriteLine("Please enter the year:");
+                            book_year = int.Parse(Console.ReadLine());
+                            Console.WriteLine("Please enter the number of pages:");
+                            book_pages = int.Parse(Console.ReadLine());
+                            Book new_book = new Book(book_name, book_aut, book_genre, book_year, book_pages, 1);
+                            Library.Add_book(new_book);
+                            break;
                     }
                 }
                 
                     switch (inp)
                     {
-                        case "exit":
-                            exit_helper(user);
+                        case "EXIT":
+                            Helper.Exit_helper(user);
                             break;
-                        case "help":
-                            show_help(user);
+                        case "HELP":
+                            Helper.Show_help(user);
                             break;
-                        case "show_info":
-                        Library.show_info();
+                        case "SHOW_INFO":
+                        Library.Show_info();
                             break;
-                        
-                    }
+                        case "CHECK_BOOK":
+                            Console.WriteLine("Please choose option:");
+                            Console.WriteLine("1 - search by title");
+                            Console.WriteLine("2 - search by author");
+                            Console.WriteLine("3 - search by title and author");
+                            int inp2 = int.Parse(Console.ReadLine());
+                            switch (inp2)
+                            {
+                                case 1:
+                                    Console.WriteLine("Please enter the name of the book:");
+                                    book_name = Console.ReadLine();
+                                    Console.WriteLine("Book is in the library: " + Library.Check_book(book_name, "", 1));
+                                    break;
+                                    break;
+                                case 2:
+                                    Console.WriteLine("Please enter the author:");
+                                    book_aut = Console.ReadLine();
+                                    Console.WriteLine("Book is in the library: " + Library.Check_book("", book_aut, 2));
+                                    break;
+                                case 3:
+                                    Console.WriteLine("Please enter the name of the book:");
+                                    book_name = Console.ReadLine();
+                                    Console.WriteLine("Please enter the author:");
+                                    book_aut = Console.ReadLine();
+                                    Console.WriteLine("Book is in the library: " + Library.Check_book(book_name, book_aut, 3));
+                                    break;
+                            }
+                            break;
+                        case "POPULAR_IN_GENRE":
+                            Console.WriteLine("Please enter the genre:");
+                            for (int i = 0; i < Enum.GetNames(typeof(Genre)).Length; ++i)
+                            {
+                                Genre tmp_g = (Genre)i;
+                                Console.WriteLine(i.ToString() + " - " + tmp_g.ToString());
+                            }
+                            book_genre = (Genre)int.Parse(Console.ReadLine());
+                            Book pop_book = Library.Find_pop_book_in_genre(book_genre);
+                            if (pop_book == null)
+                            {
+                                Console.WriteLine("No popular books of that genre !");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Nost popular book:");
+                                Console.WriteLine("Title: " + pop_book.title + " ; Author: " + pop_book.author_name);
+                            }
+                            break;
+
+                }
                 
                 
             }
