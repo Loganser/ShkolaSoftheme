@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
+using System.Reflection;
 
 namespace Library
 {
@@ -15,9 +16,9 @@ namespace Library
         {
             Library.Add_user("root");
             Book b1 = new Book("rose and gold", "Pushkin", Genre.drama, 1960, 1123, 2);
-            Book b2 = new Book("white and blue", "Tolstoy", Genre.humor, 1932, 678, 1);
-            Helper.Validate_book(b1);
-            Helper.Validate_book(b2);
+            Literature b2 = new Schoolbook("white and blue", "Tolstoy", "School 32", 1932, 678, 1);
+            Helper.Validate_literature(b1);
+            Helper.Validate_literature(b2);
             Library.Add_book(b1);
             Library.Add_book(b2);
             Library.Add_book(b2);
@@ -56,14 +57,15 @@ namespace Library
                             book_name = Console.ReadLine();
                             Console.WriteLine("Please enter the author of the book:");
                             book_aut = Console.ReadLine();
-                            Book book_to_take = user.Take_book(book_name, book_aut);
-                            if (book_to_take == null)
+                            Literature book_to_take = user.Take_book(book_name, book_aut);
+                            Book book_to_take1 = book_to_take as Book;
+                            if (book_to_take1 == null)
                             {
-                                Console.WriteLine("There is no such book or it is already taken!");
+                                Console.WriteLine("ERROR: You can not take this book!");
                             } else
                             {
-                                user.books_taken.Add(book_to_take);
-                                Console.WriteLine("You have taken the book!");
+                                 user.books_taken.Add(book_to_take1);
+                                 Console.WriteLine("You have taken the book!");
                             }
                             break;
                         case "RETURN_BOOK":
@@ -97,7 +99,7 @@ namespace Library
                             Console.WriteLine("Please enter the number of pages:");
                             book_pages = int.Parse(Console.ReadLine());
                             Book new_book = new Book(book_name, book_aut, book_genre, book_year, book_pages, 1);
-                            Helper.Validate_book(b2);
+                            Helper.Validate_literature(b2);
                             Library.Add_book(new_book);
                             break;
                     }
@@ -126,7 +128,6 @@ namespace Library
                                     Console.WriteLine("Please enter the name of the book:");
                                     book_name = Console.ReadLine();
                                     Console.WriteLine("Book is in the library: " + Library.Check_book(book_name, "", 1));
-                                    break;
                                     break;
                                 case 2:
                                     Console.WriteLine("Please enter the author:");

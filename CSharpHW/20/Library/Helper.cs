@@ -36,7 +36,7 @@ namespace Library
             }
         }
 
-        static public bool Validate_book(Book book)
+        static public bool Validate_literature(Literature book)
         {
 
             var results = new List<ValidationResult>();

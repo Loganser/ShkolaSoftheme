@@ -13,7 +13,7 @@ namespace Library
         [Required]
         [StringLength(50,MinimumLength = 2)]
         public string login { get; set; }
-        public List<Book> books_taken = new List<Book>();
+        public List<Literature> books_taken = new List<Literature>();
 
 
         public User(string login)
@@ -26,11 +26,12 @@ namespace Library
         {
             this.autorized = true;
         }
-        public Book Take_book(string title, string author)
+        public Literature Take_book(string title, string author)
         {
-            foreach (Book book in Library.books)
+            foreach (Literature book in Library.books)
             {
-                if (book.author_name.Equals(author) && book.title.Equals(title) && book.count > 0)
+                System.Attribute[] attrs = System.Attribute.GetCustomAttributes(book.GetType());
+                if (book.author_name.Equals(author) && book.title.Equals(title) && book.count > 0 && attrs.Count() == 0)
                 {
                     book.count--;
                     book.pop_index++;

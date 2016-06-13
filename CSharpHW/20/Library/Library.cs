@@ -10,9 +10,9 @@ namespace Library
     {
         static public List<Literature> books = new List<Literature>();
         static HashSet<string> users = new HashSet<string>();
-        static public Dictionary<Book, string> journal = new Dictionary<Book, string>();
+        static public Dictionary<Literature, string> journal = new Dictionary<Literature, string>();
 
-        static public void Update_journal(Book book)
+        static public void Update_journal(Literature book)
         {
             if (!journal.ContainsKey(book))
             {
@@ -66,7 +66,7 @@ namespace Library
                 Console.WriteLine("One of he most popular books is:" + pop_book.First().title);
         }
 
-        static public void Add_book(Book book)
+        static public void Add_book(Literature book)
         {
             for (int i = 0; i < books.Count; ++i)
             {
