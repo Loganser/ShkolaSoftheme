@@ -1,0 +1,206 @@
+﻿@media (min-width: @screen-md-min) {  }
+body {
+    background-color: #F8FEFE;
+}
+
+.items > div {
+
+}
+
+#bs-example-navbar-collapse-1{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
+}
+
+.divClass {
+    height: 40px;
+}
+
+/* Menu */
+.menu {
+    background-color: #4D868D;
+    border: 0;
+    height: 40px;
+    min-height: 40px;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: #FFF;
+    height: 40px;
+    padding: 9px 10px 0px 11px;
+    margin: 0px 4px 0px 4px;
+}
+
+.navProfile{
+    margin: 5px 40px 0px 0px !important;
+    padding: 0px 10px 5px 0px !important;
+}
+
+.navTextH:hover{
+    background-color : #92C1BA!important;
+}
+
+.navbar-right{
+    padding-right: 15px;
+}
+
+.navButton {
+    margin: 5px 25px 0px 15px;
+    padding: 3px 10px 5px 10px;
+    border: 0;
+    background-color: #92C1BA;
+    color: #FFF;
+}
+
+.navButton:hover {
+    color: #333
+}
+
+.navLogo {
+    margin: 0px 25px 0px 50px;
+    padding: 5px 0px 5px 0px;
+}
+
+.navSearchIcon{
+    margin: 3px 0px 0px 5px;
+    padding: 0px 0px 0px 0px;
+}
+
+.navSearchIcon{
+    cursor: pointer;
+}
+
+.navLogo:hover {
+    cursor: pointer;
+    /*background-color: #92C1BA;*/
+}
+
+.navbar {
+    margin: 0;
+    
+}
+
+.form-control{
+    height: 23px;
+    min-height: 23px;
+    margin-top: 0px;
+    padding-top: 7px;
+    border: 0px;
+    max-width: 150px;
+    background-color: transparent;
+    color:#C1D6D8;
+}
+
+.form-control:focus {
+  border-color: #FF0000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+
+.navbar-form{
+    margin-right: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+.navbar-left{
+    margin-right: 10px;
+}
+
+#avatar{
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px !important;
+    width: 31px;
+    height: 31px;
+    width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	background: url(http://link-to-your/image.jpg) no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .6);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .6);
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?cy2rhz');
+    src:    url('fonts/icomoon.eot?cy2rhz#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?cy2rhz') format('truetype'),
+        url('fonts/icomoon.woff?cy2rhz') format('woff'),
+        url('fonts/icomoon.svg?cy2rhz#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+    content: "\e900";
+}
+.icon-arrow1:before {
+    content: "\e901";
+}
+.icon-plus:before {
+    content: "\ea0a";
+}
+.icon-arrow1{
+    position:relative;
+    left:+140px;
+    top:-100px;
+    color: #92C1BA;
+}
+
+
+.dropdownProfile{
+    margin: 0px auto;
+    width: calc(100%-40px);
+    position:relative;
+    left: -25px;
+    top: -5px;
+    padding-right: 15px;
+    display:none;
+}
+
+.dropdownProfile ul {
+    list-style: none;
+    cursor: pointer;
+    padding-left: 0px;
+    max-width: 300px;
+}
+
+.dropdownProfile ul li{
+    display:block;
+    background: #92C1BA;
+    padding: 12px 14px;
+    color:white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    /*height:100px;*/
+    overflow: auto;
+}
+
+
+.dropdownProfile ul li:hover{
+    background-color: #87B8B1;
+}
