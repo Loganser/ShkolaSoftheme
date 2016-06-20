@@ -1,0 +1,1125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfLiterature xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Literature xsi:type="Book">
+    <title>rose and gold</title>
+    <author_name>Tim Cook</author_name>
+    <year>1960</year>
+    <pages>1123</pages>
+    <pop_index>1</pop_index>
+    <max_count>2</max_count>
+    <count>1</count>
+    <last_taken_by>root</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Schoolbook">
+    <title>space gray</title>
+    <author_name>Jobs</author_name>
+    <year>1932</year>
+    <pages>678</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>2</count>
+    <last_taken_by>no one</last_taken_by>
+    <School>School 32</School>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>a_book</title>
+    <author_name>w</author_name>
+    <year>1900</year>
+    <pages>59</pages>
+    <pop_index>1</pop_index>
+    <max_count>1</max_count>
+    <count>0</count>
+    <last_taken_by>root</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>b_book</title>
+    <author_name>s</author_name>
+    <year>1901</year>
+    <pages>61</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>c_book</title>
+    <author_name>p</author_name>
+    <year>1902</year>
+    <pages>63</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>d_book</title>
+    <author_name>i</author_name>
+    <year>1903</year>
+    <pages>65</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>e_book</title>
+    <author_name>c</author_name>
+    <year>1904</year>
+    <pages>67</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>f_book</title>
+    <author_name>s</author_name>
+    <year>1905</year>
+    <pages>69</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>g_book</title>
+    <author_name>w</author_name>
+    <year>1906</year>
+    <pages>71</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>h_book</title>
+    <author_name>k</author_name>
+    <year>1907</year>
+    <pages>73</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>i_book</title>
+    <author_name>n</author_name>
+    <year>1908</year>
+    <pages>75</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>j_book</title>
+    <author_name>v</author_name>
+    <year>1909</year>
+    <pages>77</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>k_book</title>
+    <author_name>t</author_name>
+    <year>1910</year>
+    <pages>79</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>l_book</title>
+    <author_name>o</author_name>
+    <year>1911</year>
+    <pages>81</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>m_book</title>
+    <author_name>n</author_name>
+    <year>1912</year>
+    <pages>83</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>n_book</title>
+    <author_name>{</author_name>
+    <year>1913</year>
+    <pages>85</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>o_book</title>
+    <author_name>o</author_name>
+    <year>1914</year>
+    <pages>87</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>p_book</title>
+    <author_name>q</author_name>
+    <year>1915</year>
+    <pages>89</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>q_book</title>
+    <author_name>c</author_name>
+    <year>1916</year>
+    <pages>91</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>r_book</title>
+    <author_name>x</author_name>
+    <year>1917</year>
+    <pages>93</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>s_book</title>
+    <author_name>h</author_name>
+    <year>1918</year>
+    <pages>95</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>t_book</title>
+    <author_name>d</author_name>
+    <year>1919</year>
+    <pages>97</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>u_book</title>
+    <author_name>i</author_name>
+    <year>1920</year>
+    <pages>99</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>v_book</title>
+    <author_name>v</author_name>
+    <year>1921</year>
+    <pages>101</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>w_book</title>
+    <author_name>p</author_name>
+    <year>1922</year>
+    <pages>103</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>x_book</title>
+    <author_name>z</author_name>
+    <year>1923</year>
+    <pages>105</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>y_book</title>
+    <author_name>p</author_name>
+    <year>1924</year>
+    <pages>107</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>z_book</title>
+    <author_name>f</author_name>
+    <year>1925</year>
+    <pages>109</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>{_book</title>
+    <author_name>h</author_name>
+    <year>1926</year>
+    <pages>111</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>a_book</title>
+    <author_name>a</author_name>
+    <year>1927</year>
+    <pages>113</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>b_book</title>
+    <author_name>t</author_name>
+    <year>1928</year>
+    <pages>115</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>c_book</title>
+    <author_name>v</author_name>
+    <year>1929</year>
+    <pages>117</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>d_book</title>
+    <author_name>l</author_name>
+    <year>1930</year>
+    <pages>119</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>e_book</title>
+    <author_name>w</author_name>
+    <year>1931</year>
+    <pages>121</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>f_book</title>
+    <author_name>{</author_name>
+    <year>1932</year>
+    <pages>123</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>g_book</title>
+    <author_name>o</author_name>
+    <year>1933</year>
+    <pages>125</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>h_book</title>
+    <author_name>m</author_name>
+    <year>1934</year>
+    <pages>127</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>i_book</title>
+    <author_name>z</author_name>
+    <year>1935</year>
+    <pages>129</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>j_book</title>
+    <author_name>{</author_name>
+    <year>1936</year>
+    <pages>131</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>k_book</title>
+    <author_name>b</author_name>
+    <year>1937</year>
+    <pages>133</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>l_book</title>
+    <author_name>j</author_name>
+    <year>1938</year>
+    <pages>135</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>m_book</title>
+    <author_name>z</author_name>
+    <year>1939</year>
+    <pages>137</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>n_book</title>
+    <author_name>g</author_name>
+    <year>1940</year>
+    <pages>139</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>o_book</title>
+    <author_name>h</author_name>
+    <year>1941</year>
+    <pages>141</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>p_book</title>
+    <author_name>b</author_name>
+    <year>1942</year>
+    <pages>143</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>q_book</title>
+    <author_name>a</author_name>
+    <year>1943</year>
+    <pages>145</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>r_book</title>
+    <author_name>d</author_name>
+    <year>1944</year>
+    <pages>147</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>s_book</title>
+    <author_name>p</author_name>
+    <year>1945</year>
+    <pages>149</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>t_book</title>
+    <author_name>u</author_name>
+    <year>1946</year>
+    <pages>151</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>u_book</title>
+    <author_name>g</author_name>
+    <year>1947</year>
+    <pages>153</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>v_book</title>
+    <author_name>z</author_name>
+    <year>1948</year>
+    <pages>155</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>w_book</title>
+    <author_name>o</author_name>
+    <year>1949</year>
+    <pages>157</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>x_book</title>
+    <author_name>s</author_name>
+    <year>1950</year>
+    <pages>159</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>y_book</title>
+    <author_name>c</author_name>
+    <year>1951</year>
+    <pages>161</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>z_book</title>
+    <author_name>h</author_name>
+    <year>1952</year>
+    <pages>163</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>{_book</title>
+    <author_name>z</author_name>
+    <year>1953</year>
+    <pages>165</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>a_book</title>
+    <author_name>h</author_name>
+    <year>1954</year>
+    <pages>167</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>b_book</title>
+    <author_name>g</author_name>
+    <year>1955</year>
+    <pages>169</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>c_book</title>
+    <author_name>j</author_name>
+    <year>1956</year>
+    <pages>171</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>d_book</title>
+    <author_name>o</author_name>
+    <year>1957</year>
+    <pages>173</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>e_book</title>
+    <author_name>b</author_name>
+    <year>1958</year>
+    <pages>175</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>f_book</title>
+    <author_name>g</author_name>
+    <year>1959</year>
+    <pages>177</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>g_book</title>
+    <author_name>l</author_name>
+    <year>1960</year>
+    <pages>179</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>h_book</title>
+    <author_name>g</author_name>
+    <year>1961</year>
+    <pages>181</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>i_book</title>
+    <author_name>u</author_name>
+    <year>1962</year>
+    <pages>183</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>j_book</title>
+    <author_name>w</author_name>
+    <year>1963</year>
+    <pages>185</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>k_book</title>
+    <author_name>o</author_name>
+    <year>1964</year>
+    <pages>187</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>l_book</title>
+    <author_name>m</author_name>
+    <year>1965</year>
+    <pages>189</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>m_book</title>
+    <author_name>v</author_name>
+    <year>1966</year>
+    <pages>191</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>n_book</title>
+    <author_name>q</author_name>
+    <year>1967</year>
+    <pages>193</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>o_book</title>
+    <author_name>w</author_name>
+    <year>1968</year>
+    <pages>195</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>p_book</title>
+    <author_name>i</author_name>
+    <year>1969</year>
+    <pages>197</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>q_book</title>
+    <author_name>k</author_name>
+    <year>1970</year>
+    <pages>199</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>r_book</title>
+    <author_name>m</author_name>
+    <year>1971</year>
+    <pages>201</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>s_book</title>
+    <author_name>j</author_name>
+    <year>1972</year>
+    <pages>203</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>t_book</title>
+    <author_name>w</author_name>
+    <year>1973</year>
+    <pages>205</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>u_book</title>
+    <author_name>l</author_name>
+    <year>1974</year>
+    <pages>207</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>v_book</title>
+    <author_name>q</author_name>
+    <year>1975</year>
+    <pages>209</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>w_book</title>
+    <author_name>t</author_name>
+    <year>1976</year>
+    <pages>211</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>x_book</title>
+    <author_name>f</author_name>
+    <year>1977</year>
+    <pages>213</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>y_book</title>
+    <author_name>x</author_name>
+    <year>1978</year>
+    <pages>215</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>z_book</title>
+    <author_name>c</author_name>
+    <year>1979</year>
+    <pages>217</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>{_book</title>
+    <author_name>f</author_name>
+    <year>1980</year>
+    <pages>219</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>a_book</title>
+    <author_name>f</author_name>
+    <year>1981</year>
+    <pages>221</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>b_book</title>
+    <author_name>h</author_name>
+    <year>1982</year>
+    <pages>223</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>c_book</title>
+    <author_name>l</author_name>
+    <year>1983</year>
+    <pages>225</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>d_book</title>
+    <author_name>a</author_name>
+    <year>1984</year>
+    <pages>227</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>e_book</title>
+    <author_name>h</author_name>
+    <year>1985</year>
+    <pages>229</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>f_book</title>
+    <author_name>o</author_name>
+    <year>1986</year>
+    <pages>231</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>g_book</title>
+    <author_name>l</author_name>
+    <year>1987</year>
+    <pages>233</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>h_book</title>
+    <author_name>i</author_name>
+    <year>1988</year>
+    <pages>235</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>i_book</title>
+    <author_name>s</author_name>
+    <year>1989</year>
+    <pages>237</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>j_book</title>
+    <author_name>t</author_name>
+    <year>1990</year>
+    <pages>239</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>k_book</title>
+    <author_name>q</author_name>
+    <year>1991</year>
+    <pages>241</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>l_book</title>
+    <author_name>p</author_name>
+    <year>1992</year>
+    <pages>243</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>m_book</title>
+    <author_name>j</author_name>
+    <year>1993</year>
+    <pages>245</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>n_book</title>
+    <author_name>v</author_name>
+    <year>1994</year>
+    <pages>247</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>o_book</title>
+    <author_name>s</author_name>
+    <year>1995</year>
+    <pages>249</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>p_book</title>
+    <author_name>x</author_name>
+    <year>1996</year>
+    <pages>251</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>q_book</title>
+    <author_name>q</author_name>
+    <year>1997</year>
+    <pages>253</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>r_book</title>
+    <author_name>h</author_name>
+    <year>1998</year>
+    <pages>255</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+  <Literature xsi:type="Book">
+    <title>s_book</title>
+    <author_name>d</author_name>
+    <year>1999</year>
+    <pages>257</pages>
+    <pop_index>0</pop_index>
+    <max_count>1</max_count>
+    <count>1</count>
+    <last_taken_by>no one</last_taken_by>
+    <genre>drama</genre>
+  </Literature>
+</ArrayOfLiterature>
