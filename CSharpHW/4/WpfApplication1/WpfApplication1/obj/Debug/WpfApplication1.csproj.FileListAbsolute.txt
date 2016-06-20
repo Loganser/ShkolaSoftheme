@@ -1,0 +1,14 @@
+D:\ShkolaSoftheme\ShkolaSoftheme\CSharpHW\4\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+D:\ShkolaSoftheme\ShkolaSoftheme\CSharpHW\4\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csprojResolveAssemblyReference.cache
+D:\ShkolaSoftheme\ShkolaSoftheme\CSharpHW\4\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.g.cs
+D:\ShkolaSoftheme\ShkolaSoftheme\CSharpHW\4\WpfApplication1\WpfApplication1\obj\Debug\App.g.cs
+D:\ShkolaSoftheme\ShkolaSoftheme\CSharpHW\4\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+D:\ShkolaSoftheme\ShkolaSoftheme\CSharpHW\4\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.lref
+D:\ShkolaSoftheme\ShkolaSoftheme\CSharpHW\4\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe
+D:\ShkolaSoftheme\ShkolaSoftheme\CSharpHW\4\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.pdb
+D:\ShkolaSoftheme\ShkolaSoftheme\CSharpHW\4\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.baml
+D:\ShkolaSoftheme\ShkolaSoftheme\CSharpHW\4\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+D:\ShkolaSoftheme\ShkolaSoftheme\CSharpHW\4\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+D:\ShkolaSoftheme\ShkolaSoftheme\CSharpHW\4\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+D:\ShkolaSoftheme\ShkolaSoftheme\CSharpHW\4\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.exe
+D:\ShkolaSoftheme\ShkolaSoftheme\CSharpHW\4\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.pdb
