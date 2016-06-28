@@ -1,0 +1,6 @@
+D:\ShkolaSoftheme\ShkolaSoftheme\CSharpHW\26\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\ShkolaSoftheme\ShkolaSoftheme\CSharpHW\26\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\ShkolaSoftheme\ShkolaSoftheme\CSharpHW\26\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\ShkolaSoftheme\ShkolaSoftheme\CSharpHW\26\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\ShkolaSoftheme\ShkolaSoftheme\CSharpHW\26\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\ShkolaSoftheme\ShkolaSoftheme\CSharpHW\26\ConsoleApplication1\ConsoleApplication1\obj\Debug\ZIP.csprojResolveAssemblyReference.cache

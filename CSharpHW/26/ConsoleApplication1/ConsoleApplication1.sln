@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZIP", "ConsoleApplication1\ZIP.csproj", "{472ADCAE-87F5-4646-89B2-AEDB66DEDBC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNZIP", "ConsoleApplication2\UNZIP.csproj", "{6A4A8012-5713-4277-B447-AB2DB43AB2E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{472ADCAE-87F5-4646-89B2-AEDB66DEDBC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{472ADCAE-87F5-4646-89B2-AEDB66DEDBC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{472ADCAE-87F5-4646-89B2-AEDB66DEDBC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{472ADCAE-87F5-4646-89B2-AEDB66DEDBC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A4A8012-5713-4277-B447-AB2DB43AB2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A4A8012-5713-4277-B447-AB2DB43AB2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A4A8012-5713-4277-B447-AB2DB43AB2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A4A8012-5713-4277-B447-AB2DB43AB2E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
