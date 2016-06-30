@@ -1,0 +1,78 @@
+3/26/2016 16:03:10	This log contains information about the import schema operation into project 'StoreDB' on computer 'DESKTOP-2FLTITO' by user 'Timus'.
+3/26/2016 16:03:10	Import of database schema has started.
+3/26/2016 16:03:15	Gathering database options
+3/26/2016 16:03:15	Gathering users
+3/26/2016 16:03:15	Gathering roles
+3/26/2016 16:03:15	Gathering application roles
+3/26/2016 16:03:15	Gathering role memberships
+3/26/2016 16:03:15	Gathering filegroups
+3/26/2016 16:03:15	Gathering full-text catalogs
+3/26/2016 16:03:15	Gathering assemblies
+3/26/2016 16:03:15	Gathering certificates
+3/26/2016 16:03:15	Gathering asymmetric keys
+3/26/2016 16:03:15	Gathering symmetric keys
+3/26/2016 16:03:15	Gathering encrypted symmetric keys
+3/26/2016 16:03:15	Gathering schemas
+3/26/2016 16:03:15	Gathering XML schema collections
+3/26/2016 16:03:15	Gathering user-defined data types
+3/26/2016 16:03:15	Gathering user-defined types
+3/26/2016 16:03:15	Gathering table types
+3/26/2016 16:03:15	Gathering unique keys for table types
+3/26/2016 16:03:15	Gathering primary keys for table types
+3/26/2016 16:03:15	Gathering indexes for table types
+3/26/2016 16:03:15	Gathering check constraints for table types
+3/26/2016 16:03:15	Gathering default constraints for table types
+3/26/2016 16:03:15	Gathering partition functions
+3/26/2016 16:03:15	Gathering partition schemes
+3/26/2016 16:03:15	Gathering functions
+3/26/2016 16:03:15	Gathering encrypted functions
+3/26/2016 16:03:15	Gathering aggregates
+3/26/2016 16:03:15	Gathering procedures
+3/26/2016 16:03:15	Gathering encrypted procedures
+3/26/2016 16:03:15	Gathering tables
+3/26/2016 16:03:15	Gathering primary keys
+3/26/2016 16:03:15	Gathering unique constraints
+3/26/2016 16:03:15	Gathering foreign keys
+3/26/2016 16:03:15	Gathering default constraints
+3/26/2016 16:03:15	Gathering check constraints
+3/26/2016 16:03:15	Gathering views
+3/26/2016 16:03:15	Gathering encrypted views
+3/26/2016 16:03:15	Gathering indexes
+3/26/2016 16:03:15	Gathering statistics
+3/26/2016 16:03:15	Gathering full-text index stoplists
+3/26/2016 16:03:15	Gathering search property lists
+3/26/2016 16:03:15	Gathering search properties
+3/26/2016 16:03:15	Gathering full-text indexes
+3/26/2016 16:03:15	Gathering column store indexes
+3/26/2016 16:03:15	Gathering spatial indexes
+3/26/2016 16:03:15	Gathering XML indexes
+3/26/2016 16:03:15	Gathering Selective XML indexes
+3/26/2016 16:03:15	Gathering encrypted triggers
+3/26/2016 16:03:15	Gathering triggers
+3/26/2016 16:03:15	Gathering encrypted and clr ddl triggers
+3/26/2016 16:03:15	Gathering ddl triggers
+3/26/2016 16:03:15	Gathering synonyms
+3/26/2016 16:03:15	Gathering defaults
+3/26/2016 16:03:15	Gathering data constraint uddt bindings
+3/26/2016 16:03:15	Gathering rules
+3/26/2016 16:03:15	Gathering data constraint uddt bindings
+3/26/2016 16:03:15	Gathering message types
+3/26/2016 16:03:15	Gathering queues
+3/26/2016 16:03:15	Gathering contracts
+3/26/2016 16:03:15	Gathering services
+3/26/2016 16:03:15	Gathering event notifications
+3/26/2016 16:03:15	Gathering remote service bindings
+3/26/2016 16:03:15	Gathering broker priorities
+3/26/2016 16:03:15	Gathering signatures
+3/26/2016 16:03:15	Gathering data compression options
+3/26/2016 16:03:15	Gathering sequence types
+3/26/2016 16:03:15	Gathering database permissions
+3/26/2016 16:03:15	Gathering extended properties
+3/26/2016 16:03:15	Gathering credentials
+3/26/2016 16:03:15	Gathering logins
+3/26/2016 16:03:15	Gathering server audits
+3/26/2016 16:03:16	Scanning project for duplicate elements
+3/26/2016 16:03:16	Finished duplicate element processing
+3/26/2016 16:03:16	Finished importing database.
+3/26/2016 16:03:16	A summary of the import was saved to the following location: C:\Users\Timus\Desktop\L7\ModelDemo\StoreDB\Import Schema Logs\StoreDB_20160326020310.log
+3/26/2016 16:03:16	Click Finish to continue...

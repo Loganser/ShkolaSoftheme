@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].[Order]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [Date] DATETIME NOT NULL, 
+    [Owner] NVARCHAR(50) NOT NULL, 
+    [IsProcessing] BIT NOT NULL, 
+    [Status] NVARCHAR(50) NOT NULL, 
+    [ProductId] UNIQUEIDENTIFIER NOT NULL, 
+    CONSTRAINT [FK_Order_ToProduct] FOREIGN KEY ([ProductId]) REFERENCES Product(Id)
+)

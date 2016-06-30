@@ -1,0 +1,55 @@
+﻿@model IEnumerable<ModelDemo.Models.Context.Order>
+
+@{
+    ViewBag.Title = "Orders";
+}
+
+<h2>Orders</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Product)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Owner)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+
+        <th>Общая сумма : $ @Model.Sum(x => x.Product.Price)</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Product.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Owner)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+
+            <td>
+                @if (!item.IsProcessing)
+                {
+                    @Html.ActionLink("Продолжить заказ", "Process", new {id = item.Id}, new {@class = "btn btn-primary"})
+                    <span>|</span>
+                }
+
+                @Html.ActionLink("Удалить", "Delete", new {id = item.Id}, new {@class = "btn btn-danger"})
+            </td>
+        </tr>
+    }
+
+</table>

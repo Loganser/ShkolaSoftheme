@@ -1,0 +1,35 @@
+﻿@model IEnumerable<ModelDemo.Models.Context.Category>
+
+@{
+    ViewBag.Title = "Products";
+}
+
+<h2>Products</h2>
+@foreach (var item in Model)
+{
+    <h3 class="page-header">@Html.DisplayFor(modelItem => item.Title)</h3>
+    <div class="row">
+        @foreach (var product in item.Products)
+        {
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h3>@Html.DisplayFor(modelItem => product.Title)</h3>
+                        <p>@Html.DisplayFor(modelItem => product.Description)</p>
+                        <p>
+                            @if (product.IsAvalialbe)
+                            {
+                                <b>$ @(product.Price)</b>
+                                @Html.ActionLink("Заказать", "Order", new { id = product.Id }, new { @class = "btn btn-primary pull-right" })
+                            }
+                            else
+                            {
+                                <a href="#" class="btn btn-warning disabled" role="button" disabled="disabled">Недоступен</a>
+                            }
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
