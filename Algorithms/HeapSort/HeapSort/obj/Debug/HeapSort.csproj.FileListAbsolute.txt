@@ -1,0 +1,6 @@
+E:\ShkolaSoftheme\ShkolaSoftheme\Algorithms\HeapSort\HeapSort\bin\Debug\HeapSort.exe.config
+E:\ShkolaSoftheme\ShkolaSoftheme\Algorithms\HeapSort\HeapSort\bin\Debug\HeapSort.exe
+E:\ShkolaSoftheme\ShkolaSoftheme\Algorithms\HeapSort\HeapSort\bin\Debug\HeapSort.pdb
+E:\ShkolaSoftheme\ShkolaSoftheme\Algorithms\HeapSort\HeapSort\obj\Debug\HeapSort.csprojResolveAssemblyReference.cache
+E:\ShkolaSoftheme\ShkolaSoftheme\Algorithms\HeapSort\HeapSort\obj\Debug\HeapSort.exe
+E:\ShkolaSoftheme\ShkolaSoftheme\Algorithms\HeapSort\HeapSort\obj\Debug\HeapSort.pdb
