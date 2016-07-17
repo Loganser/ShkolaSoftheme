@@ -1,0 +1,22 @@
+Set-ExecutionPolicy : Access to the registry key 'HKEY_LOCAL_MACHINE\SOFTWARE\M
+icrosoft\PowerShell\1\ShellIds\Microsoft.PowerShell' is denied. To change the 
+execution policy for the default (LocalMachine) scope, start Windows 
+PowerShell with the "Run as administrator" option. To change the execution 
+policy for the current user, run "Set-ExecutionPolicy -Scope CurrentUser".
+At line:1 char:1
++ Set-ExecutionPolicy Unrestricted
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : PermissionDenied: (:) [Set-ExecutionPolicy], Una 
+   uthorizedAccessException
+    + FullyQualifiedErrorId : System.UnauthorizedAccessException,Microsoft.Pow 
+   erShell.Commands.SetExecutionPolicyCommand
+.\script.ps1 : The term '.\script.ps1' is not recognized as the name of a 
+cmdlet, function, script file, or operable program. Check the spelling of the 
+name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ .\script.ps1
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (.\script.ps1:String) [], Comman 
+   dNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 

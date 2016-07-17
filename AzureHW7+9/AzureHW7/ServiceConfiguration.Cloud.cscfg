@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="AzureHW7" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="WebRole1">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=fedorov;AccountKey=UtSY2ZKa9N7PSP2n9T1YZeXKvZXLFLWkLtlVYt7kWMivHQ6lxyuP7b1vH778j+Qxu3xvn5KjcRcXKJHcchCD7A==" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="e2d3536a-8348-4ece-8429-151b833f1c07" />
+      <Setting name="NewRelic.LicenseKey" value="576823e44de8d16601f2f96ad28ef2a71d3d2c54" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="fedorov" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMTE1Jvb3RDZXJ0aWZpY2F0ZU5hbWUCECq2GjQGlo+ySEH+9BQE2NkwDQYJKoZIhvcNAQEBBQAEggEAORgvDOiYm8oGbijMXGSHpAjbJ65jtEH88PSyx8I6Ky9eUMTqyhciuiltoRJNvHKvF05+C5uT8eUSgVXv2+KkSEzURnlNWN+5l3zpkcqf539XxtT1CTSlULN7TWB6x85Fq4Gg5gNOjeeno02uPfmeFG8EgpCuL8U6elapjw/5IJZM7yLxmx4e3AKfFnxIo0QA2zbYGoSfUfspGnBtvoCn0cHaA5nV+yaIJYRdZKHxN/p42llOz9NgSZwSxu0ya3wZTR9NbVYT0Kt1pLk3oaTBC8l1Wx13l0LyrbqsUxBvRy0X2JCquMym4eaubhac/2IcQgnyPVGWez6O6M+seV7xxTAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECGCSyLecZapmgBD3yLPwKHglzAj4n3fGsYDz" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2017-07-11T23:59:59.0000000+03:00" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="4F39F87F926FE1B15E87C3B6FD95A3D1C76FA8E2" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+  <Role name="WorkerRole1">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=fedorov;AccountKey=UtSY2ZKa9N7PSP2n9T1YZeXKvZXLFLWkLtlVYt7kWMivHQ6lxyuP7b1vH778j+Qxu3xvn5KjcRcXKJHcchCD7A==" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="e2d3536a-8348-4ece-8429-151b833f1c07" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="fedorov" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMTE1Jvb3RDZXJ0aWZpY2F0ZU5hbWUCECq2GjQGlo+ySEH+9BQE2NkwDQYJKoZIhvcNAQEBBQAEggEAORgvDOiYm8oGbijMXGSHpAjbJ65jtEH88PSyx8I6Ky9eUMTqyhciuiltoRJNvHKvF05+C5uT8eUSgVXv2+KkSEzURnlNWN+5l3zpkcqf539XxtT1CTSlULN7TWB6x85Fq4Gg5gNOjeeno02uPfmeFG8EgpCuL8U6elapjw/5IJZM7yLxmx4e3AKfFnxIo0QA2zbYGoSfUfspGnBtvoCn0cHaA5nV+yaIJYRdZKHxN/p42llOz9NgSZwSxu0ya3wZTR9NbVYT0Kt1pLk3oaTBC8l1Wx13l0LyrbqsUxBvRy0X2JCquMym4eaubhac/2IcQgnyPVGWez6O6M+seV7xxTAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECGCSyLecZapmgBD3yLPwKHglzAj4n3fGsYDz" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2017-07-11T23:59:59.0000000+03:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="4F39F87F926FE1B15E87C3B6FD95A3D1C76FA8E2" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>
